@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreviousContactDate__c</fullName>
+    <description>最終接触日のひとつ前の値。フローによって LastContactDate__c のスライド処理で更新される。</description>
+    <label>前回接触日</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>
