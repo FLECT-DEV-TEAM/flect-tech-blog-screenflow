@@ -1,18 +1,9 @@
-# Salesforce DX Project: Next Steps
+# flect-tech-blog-screenflow
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+技術ブログ記事「**Salesforce画面フローの設計：見落としがちなユーザー操作を想定する 〜ブラウザバック・途中離脱・想定外実行〜**」のデモ実装リポジトリです。
 
-## How Do You Plan to Deploy Your Changes?
+取引先(Account)から商談を作成する画面フローを題材に、記事で取り上げる「悪いフロー」と「正しいフロー」のメタデータを収録しています。Developer Edition 組織での動作確認はしていますが、あくまで参考実装としてご覧ください。
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## デプロイ手順
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+`release/RELEASE.md` を参照してください。
